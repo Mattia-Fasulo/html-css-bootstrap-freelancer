@@ -17,6 +17,10 @@
   color: #2c3e50;
 }
 
+.txt-my-green {
+    color: var(--my-water-green);
+}
+
 .bg-my-green {
   background-color: var(--my-water-green);
 }
@@ -24,6 +28,10 @@
 .bg-dark-grey {
   background-color: var(--my-dark-grey);
 }
+
+.bg-light-grey {
+    background-color: var(--my-light-grey);
+  }
 
 .my-nmr-10 {
   margin-right: -10px;
@@ -55,6 +63,13 @@ header {
   top: 0;
   z-index: 1500;
 }
+
+footer{
+    width: 100%;
+}
+
+/* header */
+
 
 /* section hero */
 #hero img {
@@ -141,4 +156,23 @@ header {
 
 #contact button {
   border: none;
+}
+
+/* footer */
+#icons-brand{
+    width: 100%;
+}
+#icons-brand i{
+    border: 1px solid var(--my-white);
+    padding: 12px;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+#icons-brand  i:first-child {
+    padding: 12px 16px;
+}
+
+div.w-100.bg-dark-grey {
+    height: 100px;
 }
