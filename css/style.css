@@ -69,6 +69,9 @@ footer{
 }
 
 /* header */
+.navbar a:hover {
+    transform: scale(1.1);
+}
 
 
 /* section hero */
@@ -133,6 +136,15 @@ footer{
 /* section about */
 #about .btn {
   width: 150px;
+  transition: all 1300ms linear;
+  
+}
+
+#about .btn:hover {
+    background-color: var(--my-water-green);
+    color: var(--my-white);
+    box-shadow: 2px 2px 2px var(--my-dark-grey);
+    transform: scale(1.1);
 }
 
 /* section contact */
@@ -154,9 +166,18 @@ footer{
   margin-bottom: 0px;
 }
 
-#contact button {
+#btn-contact {
   border: none;
+  transition: all 1300ms linear;
 }
+
+#btn-contact:hover {
+    background-color: var(--my-water-green);
+    color: var(--my-white);
+    box-shadow: 1px 1px 1px var(--my-dark-grey);
+    transform: scale(1.1);
+}
+
 
 /* footer */
 #icons-brand{
@@ -167,6 +188,13 @@ footer{
     padding: 12px;
     border-radius: 50%;
     margin: 0 3px;
+    cursor: pointer;
+    transform: all 1s linear;
+}
+
+#icons-brand i:hover {
+    background-color: var(--my-water-green);
+    box-shadow: 2px 2px 2px var(--my-dark-grey);
 }
 
 #icons-brand  i:first-child {
