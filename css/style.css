@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+.txt-grey {
+  color: #2c3e50;
+}
+
 .bg-my-green {
   background-color: var(--my-water-green);
 }
@@ -79,7 +83,9 @@ header {
 }
 
 #portfolio .star::before,
-#portfolio .star::after {
+#portfolio .star::after,
+#contact .star::before,
+#contact .star::after {
   background-color: var(--my-black);
 }
 
@@ -112,4 +118,27 @@ header {
 /* section about */
 #about .btn {
   width: 150px;
+}
+
+/* section contact */
+#contact input,
+#contact textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(174, 173, 173);
+  border-radius: 0%;
+}
+
+#contact input,
+#contact textarea {
+  padding: 0;
+}
+
+#contact label {
+  margin-bottom: 0px;
+}
+
+#contact button {
+  border: none;
 }
