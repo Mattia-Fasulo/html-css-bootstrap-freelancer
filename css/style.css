@@ -108,3 +108,8 @@ header {
 .layover-container:hover::after {
   opacity: 1;
 }
+
+/* section about */
+#about .btn {
+  width: 150px;
+}
