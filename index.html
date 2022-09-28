@@ -6,33 +6,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- bootastrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- my style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-grey h-100 ">
+            <div class="container-md ">
+                <a class="navbar-brand text-uppercase fw-bold" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-dark-grey  mt-1" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase"
+                                href="https://fonts.google.com/specimen/Roboto">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
-            <section></section>
-            <section></section>
-            <section></section>
-            <section></section>
+
+        <!-- section hero -->
+        <section id="hero" class="bg-my-green mt-5 my-pt-100">
+            <div class="container-md">
+                <div class="row justify-content-center">
+                    <div class="col-auto text-center">
+                        <img src="img/avatar.svg" alt="Avatar">
+                        <h1 class="text-uppercase fw-bold fs-1">Start Bootstrap</h1>
+                        <div class="star m-auto pb-3">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-uppercase fs-5 my-pb-60">Graphic Artist - Web Designer - Illustrator</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section portfolio -->
+        <section id="portfolio">
+            <div class="container-md text-center mt-5">
+                <h2 class="text-uppercase fs-2 text-black fw-bold my-nmr-10">Portfolio</h2>
+                <div class="star m-auto pb-3">
+                    <i class="fa-solid fa-star text-black"></i>
+                </div>
+                <div class="row gy-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="layover-container poi rounded-3 position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/cabin.png" alt="cabin">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="layover-container poi rounded-3 position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/cake.png" alt="cake">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="layover-container poi rounded-3 position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/circus.png" alt="circus">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="layover-container poi rounded-3 position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/game.png" alt="game">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="layover-container poi rounded-3 position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/safe.png" alt="safe">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="layover-container poi rounded-3 position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/submarine.png" alt="submarine">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about"></section>
+        <section id="contact"></section>
     </main>
 
     <footer>
 
-    
+
     </footer>
 </body>
 
